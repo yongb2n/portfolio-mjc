@@ -2,7 +2,7 @@
   <div class="introduce-back" @click="movePage('/')">&lt; Back</div>
   <div class="introduce-container">
     <div class="introduce-header">Introduce</div>
-    <div class="introduce-img"><img src="/person2.png"></div>
+    <div class="introduce-img"><img src="/portfolio-mjc/person2.png"></div>
     <div class="introduce-body">
       <p>다양한 분야를 경험하고 학습하는 것을 좋아하는 사람입니다.</p>
       <p>어떻게 하면 효율적으로 코드를 작성할 수 있을지 고민하고, 확장성, 유지보수성, 가독성이 좋은 코드가 좋은 코드라고 생각하고 개발하려고 노력합니다.</p>

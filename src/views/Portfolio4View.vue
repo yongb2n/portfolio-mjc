@@ -2,7 +2,7 @@
   <div class="tech-back" @click="movePage('/')">&lt; Back</div>
   <div class="tech-container">
     <div class="tech-header">Tech Stack</div>
-    <div class="tech-img"><img src="/tech.png"></div>
+    <div class="tech-img"><img src="/portfolio-mjc/tech.png"></div>
     <div class="tech-body">
       <div>
         <p class="tech-front">Front-End</p>

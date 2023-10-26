@@ -4,7 +4,7 @@
     <div class="etc-header">추천하는 책</div>
     <div class="etc-body">
       <div class="etc-a">
-        <img src="/b1.jpeg">
+        <img src="/portfolio-mjc/b1.jpeg">
         <p class="etc-a-name">이름: 역행자</p>
         <div class="etc-a-rec">추천하는 이유</div>
         <p>

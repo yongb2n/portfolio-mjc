@@ -2,7 +2,7 @@
   <div class="project-back" @click="movePage('/')">&lt; Back</div>
   <div class="project-container">
     <div class="project-header">Project</div>
-    <div class="project-img"><img src="/project.png"></div>
+    <div class="project-img"><img src="/portfolio-mjc/project.png"></div>
     <div class="project-body">
       <p>DevForDev (개발자를 위한 커뮤니티 사이트)</p>
       <p>2023.9.13 ~ </p>

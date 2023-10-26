@@ -2,7 +2,7 @@
   <div class="contact-back" @click="movePage('/')">&lt; Back</div>
   <div class="contact-container">
     <div class="contact-header">Contact</div>
-    <div><img src="/person.png"></div>
+    <div><img src="/portfolio-mjc/person.png"></div>
     <div class="contact-body">Email: <a href="mailto:kyb2475@gmail.com">kyb2475@gmail.com</a></div>    
     <div class="contact-body">Github: <a href="https://github.com/yongb2n" target="_blank">https://github.com/yongb2n</a></div>    
     <div class="contact-body">Blog: <a href="https://velog.io/@yongb2n" target="_blank">https://velog.io/@yongb2n</a></div>  
