@@ -26,14 +26,66 @@
     </swiper>
    </div>  
    <div id="portfolio">
-    <div class="header">포트폴리오</div>
+    <div class="header">My portfolio</div>
     <div class="list">
-      <div class="item" @click="movePage('/portfolio1')" data-aos="fade-right" data-aos-delay="300" style="background-image: url(/top1.jpg);"></div>
-      <div class="item" @click="movePage('/portfolio2')" data-aos="fade-down" data-aos-delay="400" style="background-image: url(/top1.jpg);"></div>
-      <div class="item" @click="movePage('/portfolio3')" data-aos="fade-left" data-aos-delay="500" style="background-image: url(/top1.jpg);"></div>
-      <div class="item" @click="movePage('/portfolio4')" data-aos="fade-right" data-aos-delay="600" style="background-image: url(/top1.jpg);"></div>
-      <div class="item" @click="movePage('/portfolio5')" data-aos="fade-up" data-aos-delay="700" style="background-image: url(/top1.jpg);"></div>
-      <div class="item" @click="movePage('/portfolio6')" data-aos="fade-left" data-aos-delay="800" style="background-image: url(/top1.jpg);"></div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio1')" 
+        data-aos="fade-right" 
+        data-aos-delay="300" 
+        style="background-image: url(/m1.jpeg);
+        color: rgb(125, 190, 82)"
+      >
+        Contact
+      </div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio2')" 
+        data-aos="fade-down" data-aos-delay="400" 
+        style="background-image: url(/m2.png);
+        color: rgb(215, 128, 195);"
+      >
+        Introduce
+      </div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio3')" 
+        data-aos="fade-left" 
+        data-aos-delay="500" 
+        style="background-image: url(/m3.jpeg);
+        color: rgb(86, 216, 255);"
+      >
+        Project
+      </div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio4')" 
+        data-aos="fade-right" 
+        data-aos-delay="600" 
+        style="background-image: url(/m4.png);
+        color: rgb(221, 88, 94);"
+      >
+        Tech Stack  
+      </div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio5')" 
+        data-aos="fade-up" 
+        data-aos-delay="700" 
+        style="background-image: url(/m5.png);"
+      >
+        자격증
+      </div>
+      <div 
+        class="item" 
+        @click="movePage('/portfolio6')" 
+        data-aos="fade-left" 
+        data-aos-delay="800" 
+        style="background-image: url(/m6.jpeg);
+        color: rgb(138, 4, 255);"
+      >
+        etc.
+      </div>
     </div>
    </div>
   </div>
@@ -77,7 +129,8 @@ export default defineComponent({
 <style lang="less">
 
 .wrap {
-  background-color: rgb(225, 237, 168);
+  background-color: rgb(237, 208, 168);
+  padding-bottom: 100px;
 }
 
 #top {
@@ -91,7 +144,7 @@ export default defineComponent({
       .header {
         font-size: 60px;
         font-weight: 900;
-        color: rgb(116, 182, 165);
+        color: rgb(197, 255, 241);
         height: 100%; 
         display: flex;
         align-items: center;
@@ -121,6 +174,12 @@ export default defineComponent({
       background-size: cover;
       border-radius: 20px;
       aspect-ratio: 1 / 1;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      display: flex;
+      align-items: end;
+      justify-content: center;
     }
   }
 }
